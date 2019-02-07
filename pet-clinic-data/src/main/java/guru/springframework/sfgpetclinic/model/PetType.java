@@ -1,17 +1,8 @@
 package guru.springframework.sfgpetclinic.model;
 
-public class PetType {
+public class PetType extends BaseEntity {
 
     private String name;
-    private Long id;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getName() {
         return name;
